@@ -1,0 +1,117 @@
+body{
+    background-color: #dcdde1;
+}
+
+.login_form img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: -80px;
+}
+
+.login_form{
+    margin: auto;
+    width: 500px;
+    height: 515px;
+    background-color: #273c75;
+    text-align: center;
+    margin-top: 10%;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+.login_forms{
+    margin-top: 50px;
+}
+
+.login_form input{
+    width: 70%;
+    height: 60px;
+    margin-top: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    font-family: 'BPG Algeti';
+    text-indent: 10px;
+}
+
+.login_form button{
+    width: 70%;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    font-family: 'BPG Algeti';
+    background-color: orangered;
+    color: white;
+}
+
+.login_form a{
+    display: block;
+    margin-top: 3%;
+    font-family: 'BPG Algeti';
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.register_form{
+    padding-top: 5%;
+    margin: auto;
+    width: 500px;
+    height: 420px;
+    background-color: #273c75;
+    text-align: center;
+    margin-top: 10%;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+.register_form input{
+    width: 70%;
+    height: 60px;
+    margin-top: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    font-family: 'BPG Algeti';
+    text-indent: 10px;
+}
+
+.register_form button{
+    width: 70%;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    font-family: 'BPG Algeti';
+    background-color: orangered;
+    color: white;
+}
+
+.register_form a{
+    display: block;
+    margin-top: 3%;
+    font-family: 'BPG Algeti';
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.warmatebit{
+    color: white;
+    margin-top: 3%;
+    font-family: 'BPG Algeti';
+    font-size: 20px;
+}
+
+.shecdoma{
+    color: red;
+    margin-top: 3%;
+    font-family: 'BPG Algeti';
+    font-size: 20px;
+}
+
+
+

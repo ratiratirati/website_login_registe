@@ -1,0 +1,41 @@
+.password_change{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.password_change  input{
+    width: 30%;
+    height: 70px;
+    text-indent: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: 'BPG Algeti';
+
+}
+
+.password_change  button{
+    width: 30%;
+    height: 50px;
+    text-indent: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #273c75;
+    font-family: 'BPG Algeti';
+
+}
+
+.warmatebit{
+    font-size: 20px;
+    margin-top: 5%;
+    font-family: 'BPG Algeti';
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+    margin-top: 5%;
+    font-family: 'BPG Algeti';
+}
