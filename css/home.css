@@ -1,0 +1,42 @@
+.shedzena{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.shedzena input{
+    width: 10%;
+    height: 50px;
+    padding-left: 10px;
+    font-family: 'BPG Algeti';
+    font-size: 17px;
+}
+
+
+.shedzena button{
+    width: 10%;
+    height: 40px;
+    padding-left: 10px;
+    font-family: 'BPG Algeti';
+    font-size: 17px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    margin-right: 3px;
+    background-color: #273c75;
+}
+
+.shedzena p{
+    font-family: 'BPG Algeti';
+    padding-bottom: 10px;
+}
+
+.shedzena img{
+    width: 250px;
+}
+
+.msg{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'BPG Algeti';
+}

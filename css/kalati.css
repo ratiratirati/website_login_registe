@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    width: 120%;
+    font-size: 20px;
+    font-family: 'BPG Algeti';
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#delprod{
+    width: 25%;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #273c75;
+    font-size: 17px;
+    font-family: 'BPG Algeti';
+    margin-left: 10px;
+}

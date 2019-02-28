@@ -135,10 +135,24 @@ if(isset($_GET['logout'])){
     mysqli_query ($con,$select);
 }
 
-
+$msg='';
 if(isset($_POST['delete_user'])){
     $select = "DELETE FROM users WHERE id='".$_POST['delete_user_id']."'";
     mysqli_query ($con,$select);
+}
+
+if(isset($_POST['yidva'])){
+    $num = $_POST['num'];
+    $msg = 'თქვენ შეიძინეთ '.$num .' ცალი ჯამი: '.($num * 150)." ₾" ;
+    $ms = ($num * 150);
+    $sql = "UPDATE users SET product='$num' ,price='$ms' WHERE id='".$_SESSION['user_id']."'";
+    mysqli_query ($con,$sql);
+}
+
+
+if(isset($_POST['deleteprod'])){
+    $sql = "DELETE  FROM users WHERE id='".$_SESSION['user_id']."'";
+    mysqli_query ($con,$sql);
 }
 
 ?>
